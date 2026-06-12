@@ -154,10 +154,6 @@ kubectl get svc
 ![Pipeline](pipeline.jpeg)
 
 
-### Pipeline
-
-
-![Pipeline](pipeline.jpeg)
 
 
 
