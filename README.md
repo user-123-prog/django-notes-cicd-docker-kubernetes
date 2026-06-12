@@ -128,12 +128,16 @@ orchestration tools on AWS cloud.
 ```bash
 docker build -t notes-app .
 docker run -p 8000:8000 notes-app
+```
 
-## Deploy to Kubernetes
+## ☸️ Deploy to Kubernetes
+
+```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 kubectl get pods
 kubectl get svc
+```
 
 ## 📸 Screenshots
 
@@ -142,6 +146,12 @@ kubectl get svc
 
 ![Kubectl Deployment](kubectl%20deployments.jpeg)
 
+
+
+### Pipeline
+
+
+![Pipeline](pipeline.jpeg)
 
 
 ### Pipeline
