@@ -135,5 +135,19 @@ kubectl apply -f service.yaml
 kubectl get pods
 kubectl get svc
 
+## 📸 Screenshots
+
+### Kubectl Deployment
+
+
+![Kubectl Deployment](kubectl%20deployments.jpeg)
+
+
+
+### Pipeline
+
+
+![Pipeline](pipeline.jpeg)
+
 
 
