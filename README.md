@@ -128,3 +128,12 @@ orchestration tools on AWS cloud.
 ```bash
 docker build -t notes-app .
 docker run -p 8000:8000 notes-app
+
+## Deploy to Kubernetes
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl get pods
+kubectl get svc
+
+
+
